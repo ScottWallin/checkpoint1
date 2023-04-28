@@ -31,3 +31,7 @@
 .bg-pink {
   background-color: #FE938C;
 }
+
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
