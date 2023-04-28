@@ -1,4 +1,17 @@
-:root{
+
+
+
+
+
+
+/* UTILITIES */
+.bg-color{
   background-color: #390040;
-  text: #9AADBF;
+}
+
+.light-text{
+  color: #9AADBF;
+}
+.bg-pink{
+  background-color: #FE938C;
 }
