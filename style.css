@@ -1,21 +1,33 @@
+.hero-img {
+  background-image: url(IMG_2497.jpg);
+  height: 75vh;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
 
+.cute-img {
+  height: 50vh;
+  width: auto;
 
-
+}
 
 
 
 /* UTILITIES */
-.bg-color{
+.bg-color {
   background-color: #390040;
 }
 
-.bg-light{
+.bg-light {
   background-color: #D8A8D7;
 }
 
-.light-text{
+.light-text {
   color: #9AADBF;
 }
-.bg-pink{
+
+.bg-pink {
   background-color: #FE938C;
 }
