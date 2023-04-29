@@ -1,3 +1,7 @@
+body {
+  font-family: 'Poltawski Nowy', serif;
+}
+
 .hero-img {
   background-image: url(IMG_2497.jpg);
   height: 75vh;
@@ -16,6 +20,7 @@
 
 
 /* UTILITIES */
+
 .bg-color {
   background-color: #390040;
 }
