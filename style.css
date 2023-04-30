@@ -17,12 +17,25 @@ body {
 
 }
 
+.move {
+  position: absolute;
+  right: 19px;
+
+}
+
+.around {
+  box-shadow: 0px 4px 5px 0px #390040;
+}
 
 
 /* UTILITIES */
 
 .bg-color {
   background-color: #390040;
+}
+
+.dark-text {
+  color: #390040
 }
 
 .bg-light {
@@ -35,6 +48,14 @@ body {
 
 .bg-pink {
   background-color: #FE938C;
+}
+
+.lower-bg {
+  background-color: #8f6c8e;
+}
+
+.card-bg {
+  background-color: #c69cc4;
 }
 
 .justify-content-flex-end {

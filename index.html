@@ -48,65 +48,61 @@
 
     <!-- SECTION HERO IMG & FIRST PORTION -->
     <div class="row hero-img">
-      <div class="justify-content-start mt-2">
-      </div>
-      <!-- STUB FORM -->
+      <!-- <div class="justify-content-start mt-2"></div> -->
 
-      <div class="col-4 mx-5">
-        <p class="">Share your pup below:</p>
-        <form>
-          <!-- <div class="col-12 col-md-3"> -->
-          <div class="form-floating">
-            <input type="text" class="form-control" id="name" placeholder="name">
-            <label for="name">Dog's Name</label>
-          </div>
-          <!-- </div> -->
-          <!-- <div class="col-12 col-md-3"> -->
-          <div class="form-floating">
-            <input type="email" class="form-control" id="email" placeholder="dog@yes.com">
-            <label for="email">Email Address</label>
-          </div>
-          <!-- </div> -->
-          <div class="row">
-            <div class="col-6">
-              <div class="form-floating">
-                <input type="text" class="form-control" id="phone" placeholder="Phone Number">
-                <label for="phone">Phone Number</label>
+      <!-- STUB FORM -->
+      <div>
+        <div class="col-4 m-0">
+          <p class="">Share your pup below:</p>
+          <form>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="name" placeholder="name">
+              <label for="name">Dog's Name</label>
+            </div>
+            <div class="form-floating">
+              <input type="email" class="form-control" id="email" placeholder="dog@yes.com">
+              <label for="email">Email Address</label>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+                  <label for="phone">Phone Number</label>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="ext" placeholder="Ext.">
+                  <label for="ext">Ext.</label>
+                </div>
               </div>
             </div>
-            <div class="col-6">
-              <div class="form-floating">
-                <input type="text" class="form-control" id="ext" placeholder="Ext.">
-                <label for="ext">Ext.</label>
-              </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="submit" placeholder="Drop a bone!">
+              <label for="submit">Drop a bone!</label>
             </div>
+          </form>
+        </div>
+        <div class="col-4 col-md-4 d-flex justify-content-flex-end">
+          <div class="">
+            <h2>Dogs are great!</h2>
+            <p>K9 leash dog bone dog toy, waggy lab puppies dog toy stand dachshund paw leash. Zoomies dog leash
+              squirrel
+              woof
+              squirrel leap, leash growl stand paw catch. Dog bone squeak toy heel pittie boops paw paw floppy ears
+              floof,
+              nose
+              heel crossbreed puppy.
+            </p>
           </div>
-          <!-- <div class="col-12 col-md-3"> -->
-          <div class="form-floating">
-            <input type="text" class="form-control" id="submit" placeholder="Drop a bone!">
-            <label for="submit">Drop a bone!</label>
-          </div>
-          <!-- </div> -->
-        </form>
-      </div>
-      <div class="col-4 col-md-4 d-flex justify-content-flex-end">
-        <div class="">
-          <h2>Dogs are great!</h2>
-          <p>K9 leash dog bone dog toy, waggy lab puppies dog toy stand dachshund paw leash. Zoomies dog leash
-            squirrel
-            woof
-            squirrel leap, leash growl stand paw catch. Dog bone squeak toy heel pittie boops paw paw floppy ears
-            floof,
-            nose
-            heel crossbreed puppy.
-          </p>
         </div>
       </div>
     </div>
+
     <!-- STUB END FORM -->
 
     <!-- SECTION NEXT AREA WITH THE FLOATING CARD -->
-    <div class="row bg-pink">
+    <div class="row bg-pink position-relative py-5">
       <div class="col-12 col-md-5 mx-5">
         <h2 class="text-black">Puppy Ipsum</h2>
         <h3 class="text-black">Beware of puppy breath</h3>
@@ -115,11 +111,12 @@
       </div>
 
       <!-- STUB THE CARD -->
-      <div class="card col-12 col-md-6 mx-4 d-flex">
+      <div class="card card-bg col-12 col-md-6 mx-4 pb-4 d-flex move">
         <div class="card-body">
           <div class="d-flex">
             <i class="mdi mdi-bone"></i>
-            <p class="text-black">It's important to give your puppy a bone to play with or they will use your leg.</p>
+            <p class="text-black">It's important to give your puppy a bone to play with or they will chew on your leg.
+            </p>
           </div>
           <div class="d-flex">
             <i class="mdi mdi-car"></i>
@@ -145,15 +142,15 @@
     </div>
 
     <!-- SECTION next part with a cute dog photo -->
-    <div class="row bg-color light-text">
-      <div class="col-12 col-md-3 justify-content-start m-5">
-        <img class="cute-img" src="cutedog.JPG" alt="">
+    <div class="row bg-color light-text justify-content-space-around align-items-center">
+      <div class="col-12 col-md-3 justify-content-start ms-5 p-3">
+        <img class="cute-img img-fluid rounded-2" src="cutedog.JPG" alt="">
       </div>
 
       <!-- <div class="row"> -->
       <div class="col-12 col-md-6">
         <div class="">
-          <div class="d-flex text-right my-5 py-5">
+          <div class="d-flex text-right mt-5 pt-5">
             <i class="mdi mdi-security fs-1 p-3"></i>
             <h2 class="pb-2">PLEASE DON'T FORGET TO MAKE SURE YOUR DOG IS UP TO DATE ON THEIR SHOTS FOR THEIR SECURITY
               AND SO THEY
@@ -176,31 +173,34 @@
     <!-- </div> -->
 
     <!-- SECTION the part with three boxes -->
-    <div class="row justify-content-evenly">
-      <div class="col 12 col-md-3 p-2">
+    <div class="row justify-content-evenly align-items-center py-3 lower-bg">
+      <div class=" card-bg col 12 col-md-3 m-0 border border-secondary border-2 rounded around order-0">
         <i class="mdi mdi-format-quote-open"></i>
         <p>A lot of important text</p>
-        <p>Also important text, but a different color.</p>
+        <p class="dark-text">Also important text, but a different color.</p>
       </div>
-      <div class="col 12 col-md-3 p-2">
-        <i class="mdi mdi-star-circle"></i>
-        <i class="mdi mdi-star-circle"></i>
-        <i class="mdi mdi-star-circle"></i>
+      <div class=" card-bg col 12 col-md-3 p-2 border border-secondary border-2 rounded around order-1 order-md-0">
+        <div class="text-center dark-text fs-4">
+          <i class="mdi mdi-star-circle"></i>
+          <i class="mdi mdi-star-circle"></i>
+          <i class="mdi mdi-star-circle"></i>
+        </div>
         <p>Super important words about how dogs are rated three stars out of three stars, not three stars out of five
           or
           ten.</p>
-        <p>10/10 Doctors recommend a dog in your life, or a pet of some kind if you're allergic. You poor human if you
+        <p class="dark-text">10/10 Doctors recommend a dog in your life, or a pet of some kind if you're allergic. You
+          poor human if you
           are. My deepest condolences</p>
       </div>
-      <div class="col 12 col-md-3 p-2">
+      <div class=" card-bg col 12 col-md-3 m-0 border border-secondary border-2 rounded around order-2">
         <i class="mdi mdi-format-quote-open"></i>
         <p>A lot of important text</p>
-        <p>Also important text, but a different color.</p>
+        <p class="dark-text">Also important text, but a different color.</p>
       </div>
     </div>
     <!-- SECTION The end of the page -->
     <div class="row bg-color">
-      <div class="col-12">
+      <div class="col-12 p-3">
         <h2 class="light-text">Life is better with a pup</h2>
         <p class="light-text">Yes, I'm one of those overboard dog dads who even has a tattoo of their dog. Life is
           short
@@ -211,11 +211,11 @@
 
   <!-- SECTION footer -->
   <footer class="container-fluid">
-    <div class="row">
-      <div class="d-flex te">
-        <div class="col-12">
+    <div class="row card-bg py-2">
+      <div class="d-flex">
+        <div class="col-12 text-center">
           <p>Made with love and dog hair</p>
-          <i class="mdi mdi-dog"></i>
+          <i class=" fs-5 mdi mdi-dog"></i>
         </div>
       </div>
     </div>
