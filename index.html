@@ -33,12 +33,12 @@
 </style>
 
 
-<body class="debug">
+<body class="">
 
   <!-- SECTION NAV BAR // pretty sure this is done. check back later.-->
   <header class="container-fluid sticky-top">
     <section class="row bg-color">
-      <div class="col-12 justify-content-start m-2">
+      <div class="col-12 justify-content-start my-1 py-3">
         <h1 class="mdi mdi-paw light-text light-text m-0"> DOG IPSUM</h1>
       </div>
     </section>
@@ -48,52 +48,65 @@
 
     <!-- SECTION HERO IMG & FIRST PORTION -->
     <div class="row hero-img">
-      <!-- <div class="justify-content-start mt-2"></div> -->
+      <div class="col-12">
+        <div class="row">
 
-      <!-- STUB FORM -->
-      <div>
-        <div class="col-4 m-0">
-          <p class="">Share your pup below:</p>
-          <form>
-            <div class="form-floating">
-              <input type="text" class="form-control" id="name" placeholder="name">
-              <label for="name">Dog's Name</label>
-            </div>
-            <div class="form-floating">
-              <input type="email" class="form-control" id="email" placeholder="dog@yes.com">
-              <label for="email">Email Address</label>
-            </div>
-            <div class="row">
-              <div class="col-6">
-                <div class="form-floating">
-                  <input type="text" class="form-control" id="phone" placeholder="Phone Number">
-                  <label for="phone">Phone Number</label>
+          <!-- STUB FORM -->
+          <div class="col-12">
+            <div class="row justify-content-evenly align-items-center mt-3">
+              <div class="col-10 col-md-4 m-0">
+                <form class="p-3 blurry-bg">
+                  <p class="text-white">Share your pup below:</p>
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="name" placeholder="name">
+                    <label for="name">Dog's Name</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="email" placeholder="dog@yes.com">
+                    <label for="email">Email Address</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+                        <label for="phone">Phone Number</label>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="ext" placeholder="Ext.">
+                        <label for="ext">Ext.</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="submit" placeholder="Drop a bone!">
+                    <label for="submit">Drop a bone!</label>
+                  </div>
+                  <div class="col-10 fw-strong">
+                    <p class="text-white">By checking this box, you agree all pets are adorable.</p>
+                  </div>
+                  <div class="col-3 submit">
+                    <button class="border-0 bg-pink text-black rounded"> Submit</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-1 d-none d-md-block"></div>
+              <div class="col-4 d-flex justify-content-flex-end hide-text blurry-bg">
+                <div class="">
+                  <h2 class="text-white">Dogs are great!</h2>
+                  <p class="text-white">K9 leash dog bone dog toy, waggy lab puppies dog toy stand dachshund paw leash.
+                    Zoomies dog leash
+                    squirrel
+                    woof
+                    squirrel leap, leash growl stand paw catch. Dog bone squeak toy heel pittie boops paw paw floppy
+                    ears
+                    floof,
+                    nose
+                    heel crossbreed puppy.</p>
                 </div>
               </div>
-              <div class="col-6">
-                <div class="form-floating">
-                  <input type="text" class="form-control" id="ext" placeholder="Ext.">
-                  <label for="ext">Ext.</label>
-                </div>
-              </div>
             </div>
-            <div class="form-floating">
-              <input type="text" class="form-control" id="submit" placeholder="Drop a bone!">
-              <label for="submit">Drop a bone!</label>
-            </div>
-          </form>
-        </div>
-        <div class="col-4 col-md-4 d-flex justify-content-flex-end">
-          <div class="">
-            <h2>Dogs are great!</h2>
-            <p>K9 leash dog bone dog toy, waggy lab puppies dog toy stand dachshund paw leash. Zoomies dog leash
-              squirrel
-              woof
-              squirrel leap, leash growl stand paw catch. Dog bone squeak toy heel pittie boops paw paw floppy ears
-              floof,
-              nose
-              heel crossbreed puppy.
-            </p>
           </div>
         </div>
       </div>
@@ -102,49 +115,57 @@
     <!-- STUB END FORM -->
 
     <!-- SECTION NEXT AREA WITH THE FLOATING CARD -->
-    <div class="row bg-pink position-relative py-5">
-      <div class="col-12 col-md-5 mx-5">
-        <h2 class="text-black">Puppy Ipsum</h2>
-        <h3 class="text-black">Beware of puppy breath</h3>
-        <p class=text-black>Kibbles shepherd collar growl stinky fetch wag. Wuff tug leap growl leash, paw vet peanut
-          butter leash leap aussie pittie. Come fluffy puppy chew toy release tails squirrel bark shake.</p>
+    <div class="row bg-pink justify-content-center p-3">
+      <div class="col-11 col-md-5 order-1 order-md-0">
+        <div class="row">
+          <h2 class="text-black mt-5">Puppy Ipsum</h2>
+          <h3 class="text-black">Beware of puppy breath</h3>
+          <p class=text-black>Kibbles shepherd collar growl stinky fetch wag. Wuff tug leap growl leash, paw vet peanut
+            butter leash leap aussie pittie. Come fluffy puppy chew toy release tails squirrel bark shake.</p>
+        </div>
       </div>
 
       <!-- STUB THE CARD -->
-      <div class="card card-bg col-12 col-md-6 mx-4 pb-4 d-flex move">
-        <div class="card-body">
-          <div class="d-flex">
-            <i class="mdi mdi-bone"></i>
-            <p class="text-black">It's important to give your puppy a bone to play with or they will chew on your leg.
-            </p>
-          </div>
-          <div class="d-flex">
-            <i class="mdi mdi-car"></i>
-            <p class="text-black">Take your dog for frequent car rides and teach them to drive in case of an
-              emergency.
-            </p>
-          </div>
-          <div class="d-flex">
-            <i class="mdi mdi-bullhorn"></i>
-            <p class="text-black">Make sure you call your dog's name clearly, or it will sass you.</p>
-          </div>
-          <div class="d-flex">
-            <i class="mdi mdi-medal"></i>
-            <p class="text-black">For information on our award-winning training programs, call us at (208) 867-5309
-            </p>
-          </div>
-          <div class="d-flex">
-            <i class="mdi mdi-information-box"></i>
-            <p class="text-black">For further information, email us at nothankyou@nope.com</p>
+      <div class="card card-bg col-11 col-md-6 pb-4 move order-0 order-md-1">
+        <div class=" row">
+          <div class="card-body">
+            <div class="d-flex flex-row">
+              <i class="mdi mdi-bone p-2 text-center"></i>
+              <p class="text-black text-center">It's important to give your puppy a bone to play with or they will chew
+                on your leg.
+              </p>
+            </div>
+            <div class="d-flex">
+              <i class="mdi mdi-car p-2 text-center"></i>
+              <p class="text-black text-center">Take your dog for frequent car rides and teach them to drive in case of
+                an
+                emergency.
+              </p>
+            </div>
+            <div class="d-flex">
+              <i class="mdi mdi-bullhorn p-2 text-center"></i>
+              <p class="text-black text-center">Make sure you call your dog's name clearly, or it will sass you.</p>
+            </div>
+            <div class="d-flex">
+              <i class="mdi mdi-medal p-2 text-center"></i>
+              <p class="text-black text-center">For information on our award-winning training programs, call us at (208)
+                867-5309
+              </p>
+            </div>
+            <div class="d-flex">
+              <i class="mdi mdi-information-box p-2 text-center"></i>
+              <p class="text-black text-center">For further information, email us at nothankyou@nope.com</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <!-- SECTION next part with a cute dog photo -->
-    <div class="row bg-color light-text justify-content-space-around align-items-center">
-      <div class="col-12 col-md-3 justify-content-start ms-5 p-3">
-        <img class="cute-img img-fluid rounded-2" src="cutedog.JPG" alt="">
+    <div class="row bg-color light-text justify-content-center align-items-center">
+      <div class="col-12 col-md-3 py-3 my-3">
+        <!-- <img class="cute-img rounded-2" src="cutedog.JPG" alt=""> -->
+        <div class="cute-img img-cute rounded"></div>
       </div>
 
       <!-- <div class="row"> -->
@@ -164,7 +185,7 @@
             tennis
             ball tennis ball dog tails collar.</p>
           <div class="d-flex justify-content-flex-end">
-            <button class="bg-pink">More</button>
+            <button class="bg-pink rounded border-0">More</button>
           </div>
 
         </div>
@@ -174,33 +195,47 @@
 
     <!-- SECTION the part with three boxes -->
     <div class="row justify-content-evenly align-items-center py-3 lower-bg">
-      <div class=" card-bg col 12 col-md-3 m-0 border border-secondary border-2 rounded around order-0">
-        <i class="mdi mdi-format-quote-open"></i>
-        <p>A lot of important text</p>
-        <p class="dark-text">Also important text, but a different color.</p>
-      </div>
-      <div class=" card-bg col 12 col-md-3 p-2 border border-secondary border-2 rounded around order-1 order-md-0">
-        <div class="text-center dark-text fs-4">
-          <i class="mdi mdi-star-circle"></i>
-          <i class="mdi mdi-star-circle"></i>
-          <i class="mdi mdi-star-circle"></i>
+      <div class=" card-bg col-10 col-md-3 mb-5 border border-secondary border-2 rounded around order-1 order-md-0">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <i class="mdi mdi-format-quote-open"></i>
+            <p>A lot of important text</p>
+            <p class="dark-text">Also important text, but a different color.</p>
+          </div>
         </div>
-        <p>Super important words about how dogs are rated three stars out of three stars, not three stars out of five
-          or
-          ten.</p>
-        <p class="dark-text">10/10 Doctors recommend a dog in your life, or a pet of some kind if you're allergic. You
-          poor human if you
-          are. My deepest condolences</p>
       </div>
-      <div class=" card-bg col 12 col-md-3 m-0 border border-secondary border-2 rounded around order-2">
-        <i class="mdi mdi-format-quote-open"></i>
-        <p>A lot of important text</p>
-        <p class="dark-text">Also important text, but a different color.</p>
+      <div class=" card-bg col-10 col-md-3 p-2 my-5 border border-secondary border-2 rounded around order-0 order-md-1">
+        <div class=" row justify-content-center">
+          <div class="col-10">
+            <div class="text-center dark-text fs-4">
+              <i class="mdi mdi-star-circle"></i>
+              <i class="mdi mdi-star-circle"></i>
+              <i class="mdi mdi-star-circle"></i>
+            </div>
+            <p>Super important words about how dogs are rated three stars out of three stars, not three stars out of
+              five
+              or
+              ten.</p>
+            <p class="dark-text">10/10 Doctors recommend a dog in your life, or a pet of some kind if you're allergic.
+              You
+              poor human if you
+              are. My deepest condolences</p>
+          </div>
+        </div>
+      </div>
+      <div class=" card-bg col-10 col-md-3 mb-5 border border-secondary border-2 rounded around order-2 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <i class="mdi mdi-format-quote-open"></i>
+            <p>A lot of important text</p>
+            <p class="dark-text">Also important text, but a different color.</p>
+          </div>
+        </div>
       </div>
     </div>
     <!-- SECTION The end of the page -->
     <div class="row bg-color">
-      <div class="col-12 p-3">
+      <div class="col-12 p-4">
         <h2 class="light-text">Life is better with a pup</h2>
         <p class="light-text">Yes, I'm one of those overboard dog dads who even has a tattoo of their dog. Life is
           short
@@ -211,7 +246,7 @@
 
   <!-- SECTION footer -->
   <footer class="container-fluid">
-    <div class="row card-bg py-2">
+    <div class="row card-bg py-3">
       <div class="d-flex">
         <div class="col-12 text-center">
           <p>Made with love and dog hair</p>

@@ -12,19 +12,48 @@ body {
 }
 
 .cute-img {
-  height: 50vh;
-  width: auto;
+  height: 580px;
+  width: 360px;
+  background-repeat: no-repeat;
+  background: url(cutedog.JPG);
+  background-position: center;
+  background-size: cover;
 
 }
 
-.move {
-  position: absolute;
-  right: 19px;
+@media (max-width: 768px) {
+  .img-cute {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 615px;
+  }
+}
 
+@media (min-width: 992px) {
+  .move {
+    transform: translateY(3vh)
+  }
+}
+
+@media (max-width: 768px) {
+  .hide-text {
+    display: block;
+    visibility: hidden;
+  }
 }
 
 .around {
   box-shadow: 0px 4px 5px 0px #390040;
+}
+
+.blurry-bg {
+  background: rgba(0, 0, 0, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 
